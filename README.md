@@ -53,10 +53,12 @@ Each image belongs to one of 10 classes:
 - Tkinter GUI: Displays the FashionMNIST images and shows the predicted class label.
 
 ![image](https://github.com/user-attachments/assets/a2d34a44-1548-4426-9058-ec90616aa988)
-![image](https://github.com/user-attachments/assets/8a0390e3-6817-4f67-8fa1-d1d3a2e0f863)
+![image](https://github.com/user-attachments/assets/888c254a-79b9-4c98-827e-ff32ea2d25b8)
 ![image](https://github.com/user-attachments/assets/a6b8b4e5-49ca-44f3-a9df-3a7f8d61ae15)
 ![image](https://github.com/user-attachments/assets/c124ec69-6132-4b75-b51d-3a8dd84dd500)
 ![image](https://github.com/user-attachments/assets/578b3cd6-7716-4803-8de0-61f3b515f10f)
+![image](https://github.com/user-attachments/assets/7d1f7532-fb8b-4c51-b674-f3fa50648412)
+
 
 
 
