@@ -6,15 +6,9 @@ This project implements a FashionMNIST classifier using a pretrained ResNet-18 m
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Training](#training)
 - [Testing and Accuracy](#testing-and-accuracy)
 - [GUI Visualization](#gui-visualization)
-- [Results](#results)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -44,9 +38,21 @@ Each image belongs to one of 10 classes:
 - *Feature Extractor*: We use a pretrained ResNet-18 model (with ImageNet weights) to extract features from the FashionMNIST images. The final fully connected layer of the ResNet is removed.
 - *Classifier*: A simple fully connected layer (Linear layer) is trained on the extracted features to classify the images into one of the 10 categories.
 
-## Installation
+## Training
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/fashionmnist-resnet-classifier.git
-cd fashionmnist-resnet-classifier
+- During training, the classifier is trained on features extracted from the FashionMNIST images using the pretrained ResNet-18. You can adjust the number of epochs, learning rate, and batch size in the train_classifier.py script.
+- The optimizer used is Adam with a learning rate of 0.001, and the loss function is CrossEntropyLoss.
+
+## Testing and Accuracy
+
+-The accuracy is evaluated by comparing the classifier's predictions on the test set to the ground truth labels. The accuracy can be printed in the terminal after training is complete.
+
+## GUI Visualization
+
+- A Tkinter GUI is implemented to visualize the model's predictions on the test set. You can click a button to see the next prediction in the test set.
+- Tkinter GUI: Displays the FashionMNIST images and shows the predicted class label.
+
+![image](https://github.com/user-attachments/assets/e66f83a8-7f79-4a4d-9bb1-27bef9536514)
+
+
+
