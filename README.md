@@ -52,7 +52,17 @@ Each image belongs to one of 10 classes:
 - A Tkinter GUI is implemented to visualize the model's predictions on the test set. You can click a button to see the next prediction in the test set.
 - Tkinter GUI: Displays the FashionMNIST images and shows the predicted class label.
 
-![image](https://github.com/user-attachments/assets/e66f83a8-7f79-4a4d-9bb1-27bef9536514)
+![image](https://github.com/user-attachments/assets/a2d34a44-1548-4426-9058-ec90616aa988)
+![image](https://github.com/user-attachments/assets/8a0390e3-6817-4f67-8fa1-d1d3a2e0f863)
+![image](https://github.com/user-attachments/assets/a6b8b4e5-49ca-44f3-a9df-3a7f8d61ae15)
+![image](https://github.com/user-attachments/assets/c124ec69-6132-4b75-b51d-3a8dd84dd500)
+![image](https://github.com/user-attachments/assets/578b3cd6-7716-4803-8de0-61f3b515f10f)
+
+
+
+
+
+
 
 
 
